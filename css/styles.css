@@ -99,3 +99,26 @@ body {
   cursor: pointer;
 }
 
+/* desktop (breakpoint: 700px) */
+@media all and (min-width: 700px) {
+
+  .modal {
+    width: 100%;
+    max-width: 545px;
+  }
+
+  .divider {
+    background-image: url("../images/pattern-divider-desktop.svg");
+    margin: 45px 0 45px;
+  }
+
+  .button:hover,
+  .button:active {
+    box-shadow: 0 0 40px 0 var(--neon-green);
+    cursor: pointer;
+    border: none;
+    transition: box-shadow .2s ease-in-out;
+  }
+  }
+
+}
